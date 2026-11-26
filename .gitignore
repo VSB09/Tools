@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw Port & Client Datasets (Confidential)
+*.xlsx
+*.xls
+*.csv
+!/tests/sample*.xlsx
+
+# Output folders
+Outputs/
+outputs/
+*.log
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
